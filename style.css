@@ -3,3 +3,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+html,
+body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+#volume {
+    font-size: 40px;
+    margin-top: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
