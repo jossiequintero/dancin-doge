@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     volume.addEventListener("click", function() {
         if (audio.paused) {
             audio.play();
-            console.log(this);
             this.children[0].classList.remove("hidden")
             this.children[1].classList.add("hidden");
         } else {
